@@ -3,7 +3,7 @@ Getting and Cleaning Data (getdata-011)
 
 Logic for this assignment is as follows. Initial step loads the training data and cleans as per the requirement and second step performs same activities as the first excpt the dataset is related to testing. Both datasets are then integrated into a single large table before grouping and performed and output is generated based on logic and finally exported to a local text file.
 
-Following is the sequence of action performed
+Following is the sequence of action performedc
 
 ##Load Training Data
 1. Check for file in location and propmt error if any issue
@@ -22,3 +22,4 @@ Following is the sequence of action performed
 4. Apply summarise_each on the grouped data to calculate mean on all variables
 5. Export the final data
 
+## Assumptions: Matching columns with mean or standard deviation was a simple text based search for the key words. Positions and cases are NOT considered during the checking process (e.g. "Mean" is not checked whereas "mean" is checked).
